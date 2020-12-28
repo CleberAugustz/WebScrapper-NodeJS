@@ -1,0 +1,24 @@
+{
+  "name": "WebScrapper-NodeJS",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "cleberaugustz <cleber.augustz@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "sucrase-node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "interval-promise": "^1.4.0",
+    "mysql2": "^2.2.5",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}
